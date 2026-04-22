@@ -10,18 +10,17 @@
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel = "stylesheet" href="style.css">
 
   <!-- Custom CSS -->
- 
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#hero">All about Accessibility </a>
+    <a class="navbar-brand" href="#hero">All About Accessibility</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -40,22 +39,22 @@
 </nav>
 
 <!-- HERO -->
-<section id="hero" class="text-white text-center d-flex align-items-center justify-content-center"
-style="height:100vh; background:url('hero.jpg') center/cover;">
-  <div class="bg-dark bg-opacity-50 p-5 rounded">
-    <h1 class="display-3 fw-bold">Accessibility Matters</h1>
-    <p class="lead">Designing digital and physical spaces that include everyone.</p>
+<section id="hero">
+  <div class="hero-content">
+    <h1 class="display-3 fw-bold">Why Accessibility Matters</h1>
+    <p class="lead"> Why designing digital and physical spaces that include everyone is important.</p>
   </div>
 </section>
 
 <!-- WHAT -->
 <section id="what" class="bg-light">
   <div class="container">
-    <h2 class="text-center fw-bold mb-4">What is Accessibility?</h2>
-    <p class="text-center mx-auto" style="max-width:800px;">
-      Accessibility is the practice of making websites, apps, and environments usable for all people, including those with disabilities.
-      It ensures that everyone can access information, complete tasks, and participate equally in digital and physical spaces.
+    <h2 class="text-center">What is Accessibility?</h2>
+    <p class="text-center mx-auto what-text">
+       Accessibility is the practice of making experiences open to all. It is how easily and effectively a product or service can be accessed and used. Good accessibility is designed for all types of people.
+
     </p>
+    <p class="text-center text-muted">— A Web for Everyone</p>
   </div>
 </section>
 
@@ -65,21 +64,18 @@ style="height:100vh; background:url('hero.jpg') center/cover;">
     <div class="row align-items-center">
 
       <div class="col-lg-6 mb-4">
-        <img src="accessibility.jpg" class="img-fluid rounded shadow" alt="Inclusive design example">
+        <img src="2.jpeg" class="img-fluid" alt="Inclusive design example">
       </div>
 
       <div class="col-lg-6">
-        <h2 class="fw-bold mb-4">Why Accessibility Matters</h2>
-        <p>
-          Accessibility is important because it removes barriers that prevent people from fully participating in everyday life.
-          Good design helps everyone, not just people with disabilities.
-        </p>
+        <h2>Why Accessibility Matters</h2>
+        <p>Accessibility removes barriers that prevent people from fully participating in everyday life.</p>
 
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Creates equal opportunities for all users.</li>
-          <li class="list-group-item">Improves usability and user experience.</li>
-          <li class="list-group-item">Supports independence and inclusion.</li>
-          <li class="list-group-item">Makes technology more efficient and universal.</li>
+        <ul class="list-group">
+          <li class="list-group-item"> - Creates equal opportunities for all users.</li>
+          <li class="list-group-item"> - Improves usability and user experience.</li>
+          <li class="list-group-item"> - Supports independence and inclusion.</li>
+          <li class="list-group-item"> - Makes technology more universal.</li>
         </ul>
       </div>
 
@@ -90,30 +86,33 @@ style="height:100vh; background:url('hero.jpg') center/cover;">
 <!-- FACTS -->
 <section id="facts" class="bg-light">
   <div class="container">
-    <h2 class="text-center fw-bold mb-5">Accessibility Facts</h2>
+    <h2 class="text-center mb-5">Accessibility Statistics</h2>
 
     <div class="row g-4">
 
       <div class="col-md-4">
-        <div class="card h-100 shadow text-center">
+        <div class="card text-center">
           <div class="card-body">
-            <p>Over 1 billion people worldwide live with some form of disability.</p>
+            <p>Between 15% - 25% of the population lives with a disability.</p>
+            <p class="text-muted">— What is Digital Accessibility?</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
-        <div class="card h-100 shadow text-center">
+        <div class="card text-center">
           <div class="card-body">
-            <p>Many websites still fail basic accessibility standards today.</p>
+            <p>70% of government, news, and e-commerce websites are inaccessible to individuals with visual impairments.</p>
+            <p class="text-muted">— Nucleus Research</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
-        <div class="card h-100 shadow text-center">
+        <div class="card text-center">
           <div class="card-body">
-            <p>Accessible design benefits all users, not just those with disabilities.</p>
+            <p>As few as 3% of people have access to the assistive technology they need.</p>
+            <p class="text-muted">— World Health Organization</p>
           </div>
         </div>
       </div>
@@ -125,19 +124,18 @@ style="height:100vh; background:url('hero.jpg') center/cover;">
 <!-- TIPS -->
 <section id="tips">
   <div class="container">
-    <h2 class="text-center fw-bold mb-4">Accessible Web Design Tips</h2>
+    <h2 class="text-center mb-4">Accessible Web Design Tips</h2>
 
     <p class="text-center mb-4">
-      Small design choices can make a big difference in accessibility.
+      Small changes in design can make websites easier for everyone to use.
     </p>
 
-    <ul class="list-group fs-5 mx-auto" style="max-width:750px;">
-      <li class="list-group-item">Use descriptive alt text for images.</li>
-      <li class="list-group-item">Ensure strong color contrast for readability.</li>
-      <li class="list-group-item">Make all features keyboard accessible.</li>
-      <li class="list-group-item">Provide captions for videos.</li>
-      <li class="list-group-item">Use clear headings and simple navigation.</li>
-      <li class="list-group-item">Design for mobile and responsive layouts.</li>
+    <ul class="list-group mx-auto tips-list">
+      <li class="list-group-item">Use descriptive alt text for images</li>
+      <li class="list-group-item">Keep strong color contrast for readability</li>
+      <li class="list-group-item">Make sure everything works with a keyboard</li>
+      <li class="list-group-item">Add captions or transcripts for videos</li>
+      <li class="list-group-item">Keep navigation simple and consistent</li>
     </ul>
   </div>
 </section>
@@ -145,23 +143,15 @@ style="height:100vh; background:url('hero.jpg') center/cover;">
 <!-- RESOURCES -->
 <section id="resources" class="text-center bg-light">
   <div class="container">
-    <h2 class="fw-bold mb-4">Resources</h2>
+    <h2>Resources</h2>
+    <p>Learn more about accessibility standards and guidelines:</p>
 
-    <p>Learn more about accessibility standards and design guidelines:</p>
-
-    <a href="https://www.w3.org/WAI/" class="btn btn-dark m-2">W3C Accessibility</a>
-    <a href="https://www.ada.gov/" class="btn btn-outline-dark m-2">ADA.gov</a>
-    <a href="https://www.w3.org/TR/WCAG21/" class="btn btn-dark m-2">WCAG Guidelines</a>
+    <a href="https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1" class="btn btn-outline-dark m-2">WCAG Guidelines</a>
+    <a href="https://www.ada.gov/resources/disability-rights-guide/" class="btn btn-outline-dark m-2">ADA.gov</a>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="bg-dark text-white text-center py-3">
-  XA 111 Final Project — Accessibility Matters
-</footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
